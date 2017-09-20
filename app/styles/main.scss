@@ -29,7 +29,7 @@ body {
 }
 
 header {
-  background: url('../images/bg3.jpg');
+  background: linear-gradient(rgba(13, 32, 41, 0.5), rgba(28, 78, 103, 0.2)), url('../images/bg3.jpg');
   background-size: cover;
   background-position: bottom;
   height: 100vh;
@@ -37,8 +37,15 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   color: $color-main;
+  padding-left: 50px;
+
+  .title {
+    margin-bottom: 0;
+  }
+  .subtext {
+    margin-top: 0;
+  }
 }
 
 section {
@@ -131,7 +138,7 @@ section:nth-child(odd) {
   background-position: center;
 }
 
-#event:nth-child(even) {
+section:nth-child(even) {
   background: $color-accent-2;
   color: $color-main;
 }
