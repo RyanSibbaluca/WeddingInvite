@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:20
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-big-church:before { content: "\f100"; }
+.flaticon-bouquet-of-flowers:before { content: "\f101"; }
+.flaticon-bow-tie:before { content: "\f102"; }
+.flaticon-bridal-shoe:before { content: "\f103"; }
+.flaticon-bride-bust:before { content: "\f104"; }
+.flaticon-butterfly-with-long-feelers:before { content: "\f105"; }
+.flaticon-champagne-bottle-uncork:before { content: "\f106"; }
+.flaticon-champagne-glasses:before { content: "\f107"; }
+.flaticon-diamond-ring:before { content: "\f108"; }
+.flaticon-double-bed-with-heart:before { content: "\f109"; }
+.flaticon-engagement-ring:before { content: "\f10a"; }
+.flaticon-eros-bow-and-arrow:before { content: "\f10b"; }
+.flaticon-gift-box-with-lace:before { content: "\f10c"; }
+.flaticon-groom:before { content: "\f10d"; }
+.flaticon-groom-shoes:before { content: "\f10e"; }
+.flaticon-heart-shaped-balloons:before { content: "\f10f"; }
+.flaticon-heart-shaped-necklace:before { content: "\f110"; }
+.flaticon-heart-shaped-padlock:before { content: "\f111"; }
+.flaticon-heart-with-arrow:before { content: "\f112"; }
+.flaticon-honeymoon-luggage:before { content: "\f113"; }
+.flaticon-love-letter:before { content: "\f114"; }
+.flaticon-love-potion:before { content: "\f115"; }
+.flaticon-love-song:before { content: "\f116"; }
+.flaticon-love-talk:before { content: "\f117"; }
+.flaticon-lovely-rainbow:before { content: "\f118"; }
+.flaticon-loving-home:before { content: "\f119"; }
+.flaticon-male-and-female-genders:before { content: "\f11a"; }
+.flaticon-newly-married-couple:before { content: "\f11b"; }
+.flaticon-please-do-not-disturb-sign:before { content: "\f11c"; }
+.flaticon-priest-at-wedding:before { content: "\f11d"; }
+.flaticon-rose-with-leaves:before { content: "\f11e"; }
+.flaticon-suit-and-bow-tie:before { content: "\f11f"; }
+.flaticon-sweet-muffin:before { content: "\f120"; }
+.flaticon-tandem-bicycle:before { content: "\f121"; }
+.flaticon-teddy-bear-with-heart:before { content: "\f122"; }
+.flaticon-three-candles-candelabrum:before { content: "\f123"; }
+.flaticon-two-hearts:before { content: "\f124"; }
+.flaticon-vintage-cinema-camera-looking-left:before { content: "\f125"; }
+.flaticon-wedding-arch:before { content: "\f126"; }
+.flaticon-wedding-bells:before { content: "\f127"; }
+.flaticon-wedding-cake:before { content: "\f128"; }
+.flaticon-wedding-cake-1:before { content: "\f129"; }
+.flaticon-wedding-day:before { content: "\f12a"; }
+.flaticon-wedding-dinner:before { content: "\f12b"; }
+.flaticon-wedding-dress:before { content: "\f12c"; }
+.flaticon-wedding-invitation:before { content: "\f12d"; }
+.flaticon-wedding-location:before { content: "\f12e"; }
+.flaticon-wedding-planning:before { content: "\f12f"; }
+.flaticon-wedding-reception:before { content: "\f130"; }
+.flaticon-wedding-rings:before { content: "\f131"; }
+    
+    $font-Flaticon-big-church: "\f100";
+    $font-Flaticon-bouquet-of-flowers: "\f101";
+    $font-Flaticon-bow-tie: "\f102";
+    $font-Flaticon-bridal-shoe: "\f103";
+    $font-Flaticon-bride-bust: "\f104";
+    $font-Flaticon-butterfly-with-long-feelers: "\f105";
+    $font-Flaticon-champagne-bottle-uncork: "\f106";
+    $font-Flaticon-champagne-glasses: "\f107";
+    $font-Flaticon-diamond-ring: "\f108";
+    $font-Flaticon-double-bed-with-heart: "\f109";
+    $font-Flaticon-engagement-ring: "\f10a";
+    $font-Flaticon-eros-bow-and-arrow: "\f10b";
+    $font-Flaticon-gift-box-with-lace: "\f10c";
+    $font-Flaticon-groom: "\f10d";
+    $font-Flaticon-groom-shoes: "\f10e";
+    $font-Flaticon-heart-shaped-balloons: "\f10f";
+    $font-Flaticon-heart-shaped-necklace: "\f110";
+    $font-Flaticon-heart-shaped-padlock: "\f111";
+    $font-Flaticon-heart-with-arrow: "\f112";
+    $font-Flaticon-honeymoon-luggage: "\f113";
+    $font-Flaticon-love-letter: "\f114";
+    $font-Flaticon-love-potion: "\f115";
+    $font-Flaticon-love-song: "\f116";
+    $font-Flaticon-love-talk: "\f117";
+    $font-Flaticon-lovely-rainbow: "\f118";
+    $font-Flaticon-loving-home: "\f119";
+    $font-Flaticon-male-and-female-genders: "\f11a";
+    $font-Flaticon-newly-married-couple: "\f11b";
+    $font-Flaticon-please-do-not-disturb-sign: "\f11c";
+    $font-Flaticon-priest-at-wedding: "\f11d";
+    $font-Flaticon-rose-with-leaves: "\f11e";
+    $font-Flaticon-suit-and-bow-tie: "\f11f";
+    $font-Flaticon-sweet-muffin: "\f120";
+    $font-Flaticon-tandem-bicycle: "\f121";
+    $font-Flaticon-teddy-bear-with-heart: "\f122";
+    $font-Flaticon-three-candles-candelabrum: "\f123";
+    $font-Flaticon-two-hearts: "\f124";
+    $font-Flaticon-vintage-cinema-camera-looking-left: "\f125";
+    $font-Flaticon-wedding-arch: "\f126";
+    $font-Flaticon-wedding-bells: "\f127";
+    $font-Flaticon-wedding-cake: "\f128";
+    $font-Flaticon-wedding-cake-1: "\f129";
+    $font-Flaticon-wedding-day: "\f12a";
+    $font-Flaticon-wedding-dinner: "\f12b";
+    $font-Flaticon-wedding-dress: "\f12c";
+    $font-Flaticon-wedding-invitation: "\f12d";
+    $font-Flaticon-wedding-location: "\f12e";
+    $font-Flaticon-wedding-planning: "\f12f";
+    $font-Flaticon-wedding-reception: "\f130";
+    $font-Flaticon-wedding-rings: "\f131";

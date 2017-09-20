@@ -1,0 +1,137 @@
+@import '_text';
+@import '_theme';
+
+$icon-font-path: '../fonts/';
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-bottom: 20px;
+  margin: 0;
+
+  color: white;
+  background: $color-main;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+header {
+  background: url('../images/bg3.jpg');
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $color-main;
+}
+
+section {
+  padding: 1em;
+  border-width: 1px 0;
+  border-color: black;
+  border-style: solid;
+}
+
+.columns-2 {
+  display: flex;
+  justify-content: center;
+
+  > div {
+    width: 300px;
+  }
+  .left {
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .right {
+    text-align: left;
+    margin-left: 20px;
+  }
+}
+
+.tabs {
+  background: #ffffff;
+  padding: 5px;
+
+  ul {
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  li {
+    display: inline-block;
+
+    a {
+      padding: 10px 20px;
+      display: block;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border 0.4s;
+
+      &:hover, &.active {
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+}
+
+.tabs-content {
+  background: #3dce84;
+  min-height: 200px;
+
+  padding: 20px;
+  > div {
+    display: none;
+    &.active {
+      display: flex;
+    }
+  }
+}
+
+.person {
+  text-align: center;
+  width: 200px;
+}
+
+ul {
+  list-style: none;
+}
+
+.registries {
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  img {
+    height: 100px;
+    width: auto;
+  }
+}
+
+section:nth-child(odd) {
+  background: linear-gradient(rgba(13, 32, 41, 0.95), rgba(28, 78, 103, .8)), url('../images/winter-lake.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#event:nth-child(even) {
+  background: $color-accent-2;
+  color: $color-main;
+}
