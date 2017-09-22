@@ -11,6 +11,7 @@
 
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/skeleton/css/skeleton.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -29,7 +30,7 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="container">
+    <div class="main-container">
       <header>
         <h1 class="title">Ryan & Kaye</h1>
         <h4 class="subtext">January 4, 2019</h4>
@@ -58,13 +59,23 @@
 
         <div class="columns-2">
           <div class="left">
-            <h4>Wedding: St. Benedict Ayala Westgrove</h4>
+            <div class="st-benedict">
+            </div>
+            <h3>Wedding</h3>
+            <h4>St. Benedict Ayala Westgrove</h4>
             <p>Location Icon: Ayala Westgrove Heights, Brgy. Inichan , Silang, Cavite</p>
+            <iframe frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=st.%20benedict%20westgrove&key=AIzaSyCSrvzCAQQxr-dNbJgV1q1zSPKowS3WWvM" allowfullscreen></iframe>
           </div>
           <div class="right">
-            <h4>Reception: Alta Veranda de Tibig (<i>El Pabellion de Jardin</i>)</h4>
+            <div class="alta-veranda">
+            </div>
+            <h3>Reception</h3>
+            <h4>Alta Veranda de Tibig (<i>El Pabellion de Jardin</i>)</h4>
 
-            <p>Location Icon: Quezon City</p>
+            <p>Location Icon: Alcalde St., Brgy. Tibig, Silang, Cavite</p>
+            <iframe frameborder="0" src="https://www.google.com/maps/embed/v1/directions?origin=st.%20benedict%20westgrove&destination=place_id:ChIJ21JygDZ8vTMR2uqv5Or1JGk&key=AIzaSyCSrvzCAQQxr-dNbJgV1q1zSPKowS3WWvM" allowfullscreen></iframe>
+
+            <p><b>*10-15 mins drive only from the Church</b></p>
           </div>
         </div>
       </section>
@@ -77,8 +88,21 @@
         <i>Wear anything except black and white</i>
 
       </section>
-      <section>
+      <section id="accommodations">
         <h4>Accomodations nearby</h4>
+
+        <div>
+          Microtel
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Microtel_logo.svg/1280px-Microtel_logo.svg.png"/>
+        </div>
+        <div>
+          Seda Nuvali
+          <img src="http://2.bp.blogspot.com/-C8zcMZgt5uc/VJL2XdYHrSI/AAAAAAAAHBs/Q6TboP_rgtM/s1600/seda%2Bnuvali%2Blake.jpg"/>
+        </div>
+        <div>
+          Destination Hotel
+          <img src="http://www.jblisting.com/oc-content/uploads/0/76.jpg"/>
+        </div>
       </section>
 
       <section id="entourage">
@@ -99,17 +123,31 @@
         <div class="tabs-content">
           <div class="bridesmaid active">
             <div class="person">
-              <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-128.png"/>
+              <img src="http://worldstop10list.com/wp-content/uploads/2017/03/Liza-Soberano-Top-10-Most-Beautiful-Women-In-The-World-Hot-Woman-Prettiest-Girl.jpg"/>
               <div>Bridesmaid</div>
               <div>Description</div>
             </div>
             <div class="person">
-              <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-128.png"/>
+              <img src="https://www198.lunapic.com/do-not-link-here-use-hosting-instead/150606799174882?2667061398"/>
+              <div>Bridesmaid</div>
+              <div>Description</div>
+            </div>
+            <div class="person">
+              <img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/16999064_10206326787487358_2568540729142240311_n.jpg?oh=07c6ba009744732ac86c3c95583166ab&oe=5A461441"/>
+              <div>Bridesmaid</div>
+              <div>Description</div>
+            </div>
+            <div class="person">
+              <img src="https://i.pinimg.com/736x/47/72/58/4772589c92fb1eaa2cdb0e5fc9f8b97f--emma-watson-smile-emma-watson-cute.jpg"/>
+              <div>Bridesmaid</div>
+              <div>Description</div>
+            </div>
+            <div class="person">
+              <img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/983752_10203675760549521_4238114292348400290_n.jpg?oh=9da7268ec8b7ab973991400950262afd&oe=5A519E91"/>
               <div>Bridesmaid</div>
               <div>Description</div>
             </div>
           </div>
-
           <div class="groomsmen">
             <div class="person">
               <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-128.png"/>
@@ -126,29 +164,43 @@
       </section>
 
       <section id="registry">
-        <h4>Registry</h4>
-        <p>If you were thinking of giving us a gift, we listed our wishlist in these registries</p>
+        <div class="container">
+          <h4 class="header">Registry</h4>
+          <p class="subtext">If you were thinking of giving us a gift, we listed our wishlist in these registries</p>
 
-        <ul class="registries">
-          <li>
-            <a href="#registry">
-              <img src="https://lh3.googleusercontent.com/mIeBLLu8xOi-1bPbtRO_HYb5d1VchJDLDH4hebMO7R-GNOfueGDtHCKgPWFjwyCAORQ=w300"/>
-            </a>
-          </li>
-          <li><a href="#registry">
-            <img src="http://www.rustansfresh.com/themes/rustans/images/rs-logo-black.png"/>
-          </a></li>
-          <li><a href="#registry">
-            <img src="https://vignette1.wikia.nocookie.net/logopedia/images/f/fa/Circle_SM_Logo.PNG/revision/latest?cb=20110417130842"/>
-          </a></li>
-          <li><a href="#registry">
-            <img src="https://assets.razerzone.com/eeimages/razer_pages/20991/razer-logo-slide-2.png"/>
-          </a></li>
-          <li><a href="#registry">
-            <img src="https://seeklogo.com/images/L/Louis_Vuitton-logo-FF97E85825-seeklogo.com.png"/>
-          </a></li>
-
-        </ul>
+          <div class="registries">
+            <div class="row">
+              <div class="one-third column">
+                <a href="#registry">
+                  <img src="https://lh3.googleusercontent.com/mIeBLLu8xOi-1bPbtRO_HYb5d1VchJDLDH4hebMO7R-GNOfueGDtHCKgPWFjwyCAORQ=w300"/>
+                  <p class="caption">Amazon</p>
+                </a>
+              </div>
+              <div class="one-third column">
+                <a href="#registry">
+                  <img src="http://www.rustansfresh.com/themes/rustans/images/rs-logo-black.png"/>
+                </a>
+              </div>
+              <div class="one-third column">
+                <a href="#registry">
+                  <img src="https://vignette1.wikia.nocookie.net/logopedia/images/f/fa/Circle_SM_Logo.PNG/revision/latest?cb=20110417130842"/>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="one-third column">
+                <a href="#registry">
+                  <img src="https://assets.razerzone.com/eeimages/razer_pages/20991/razer-logo-slide-2.png"/>
+                </a>
+              </div>
+              <div class="one-third column">
+                <a href="#registry">
+                  <img src="https://seeklogo.com/images/L/Louis_Vuitton-logo-FF97E85825-seeklogo.com.png"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section>
         <p>Love, Ryan & Kaye</p>

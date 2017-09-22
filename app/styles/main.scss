@@ -60,7 +60,7 @@ section {
   justify-content: center;
 
   > div {
-    width: 300px;
+    max-width: 375px;
   }
   .left {
     text-align: right;
@@ -74,7 +74,7 @@ section {
 }
 
 .tabs {
-  background: #ffffff;
+  background: $color-accent-2;
   padding: 5px;
 
   ul {
@@ -100,14 +100,17 @@ section {
 }
 
 .tabs-content {
-  background: #3dce84;
+  background: $green;
   min-height: 200px;
 
   padding: 20px;
   > div {
-    display: none;
+    display: flex;
+    position: absolute;
+
+    //display: none;
     &.active {
-      display: flex;
+      //display: flex;
     }
   }
 }
@@ -115,6 +118,27 @@ section {
 .person {
   text-align: center;
   width: 200px;
+  opacity: 0;
+  transform: translateX(80px);
+  transition: all 0.6s ease-out;
+
+  &.enter {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  &.exit {
+    //transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
 }
 
 ul {
@@ -122,13 +146,46 @@ ul {
 }
 
 .registries {
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
+  text-align: center;
   img {
     height: 100px;
     width: auto;
+
+    transition: all 0.3s;
+    &:hover {
+      height: 110px;
+
+
+      + .caption {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+
+  .caption {
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(30px);
+  }
+
+  .row {
+    margin-bottom: 20px;
+  }
+
+  .column {
+    position: relative;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: all 1.5s ease-in-out;
+
+    &.enter {
+      opacity: 1;
+      transform: translateX(0px);
+    }
   }
 }
 
@@ -141,4 +198,55 @@ section:nth-child(odd) {
 section:nth-child(even) {
   background: $color-accent-2;
   color: $color-main;
+}
+
+.st-benedict {
+  background: url('../images/st-benedict.jpg');
+  background-size: cover;
+  border-radius: 50%;
+  //margin: 0 auto;
+  margin-left: auto;
+  margin-right: 0;
+  height: 200px;
+  width: 200px;
+}
+
+.alta-veranda {
+  background: url('../images/alta-veranda.jpg');
+  background-size: cover;
+  border-radius: 50%;
+  //margin: 0 auto;
+  margin-left: 0;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+}
+
+#event {
+  iframe {
+    border: 1px #BBB solid;
+    height: 400px;
+    width: 100%;
+  }
+}
+
+#accommodations {
+  img {
+    height: 150px;
+    width: auto;
+  }
+}
+
+section {
+  .header {
+    text-align: center
+  }
+  .subtext {
+    text-align: center;
+  }
+}
+
+
+footer {
+  height: 1000px;
 }
