@@ -74,7 +74,7 @@ section {
 }
 
 .tabs {
-  background: $color-accent-2;
+  background: rgba( $color-accent-2, 0.9);
   padding: 5px;
 
   ul {
@@ -100,7 +100,7 @@ section {
 }
 
 .tabs-content {
-  background: $green;
+  background: rgba( $green, 0.8 );
   min-height: 200px;
 
   padding: 20px;
