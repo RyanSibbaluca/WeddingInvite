@@ -1,3 +1,5 @@
+@import '_theme';
+
 body {
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
@@ -22,4 +24,8 @@ h4 {
 
 .text-center {
   text-align: center;
+}
+
+.text-alternate {
+  color: $color-accent-2;
 }

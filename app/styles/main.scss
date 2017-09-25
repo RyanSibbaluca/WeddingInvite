@@ -250,3 +250,23 @@ section {
 footer {
   height: 1000px;
 }
+
+input.big-input {
+  font-size: 1.5em;
+  padding: 5px 10px;
+}
+
+.big-button {
+  font-size: 4rem;
+  line-height: 4rem;
+  height: initial;
+  padding: 10px 30px;
+}
+
+button.text-alternate {
+  &:hover,
+  &:active,
+  &:focus {
+    color: white;
+  }
+}
